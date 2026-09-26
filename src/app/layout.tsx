@@ -34,7 +34,7 @@ export default function RootLayout({
         <SmoothScroll>
           <GlobalScene />
           <Navbar />
-          <main className="flex-1 flex flex-col relative z-10">
+          <main className="flex-1 flex flex-col relative z-10 pt-24">
             <PageTransition>{children}</PageTransition>
           </main>
           <Footer />
